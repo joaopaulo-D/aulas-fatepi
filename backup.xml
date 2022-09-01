@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alunos>
+	<aluno>
+		<id>4</id>
+		<nome>test</nome>
+		<cpf>465</cpf>
+		<telefone>851</telefone>
+	</aluno>
+	<aluno>
+		<id>5</id>
+		<nome>te</nome>
+		<cpf>9869</cpf>
+		<telefone>999</telefone>
+	</aluno>
+	<aluno>
+		<id>6</id>
+		<nome>Joao</nome>
+		<cpf>85451</cpf>
+		<telefone>544856</telefone>
+	</aluno>
+</alunos>
