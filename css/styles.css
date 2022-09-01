@@ -24,3 +24,11 @@ a{
     width: 20%;
     color: white;
 }
+
+.alert-xml{
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+    width: 25%;
+}

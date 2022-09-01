@@ -50,6 +50,8 @@
         ?>
         <?php
             include "./gerando_xml.php";
+
+            echo "<p class='alert-xml'>XML está sendo gerado automaticamente :)</p>"
         ?>
     </body>
 </html>
