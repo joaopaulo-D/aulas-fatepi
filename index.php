@@ -18,6 +18,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/styles.css">
     </head>
     <body>
         <h2>Matricula de Alunos de SI</h2>
@@ -28,22 +29,23 @@
             <input type="submit" value="Enviar">
         </form>
 
-        <h2>Lista de Matriculados</h2>
         <?php
             $sql = $pdo->prepare("SELECT * FROM alunos");
             $sql->execute();
 
             $fetchUsuarios = $sql->fetchAll();
 
+            echo '<h2>Alunos Matriculados - '.count($fetchUsuarios).'</h2>';
+
             if($fetchUsuarios){
                 foreach ($fetchUsuarios as $key => $value) {
-                    echo '<a href="?delete='.$value['id'].'">(DELETAR) </a>
-                          <a href="update.php?id='.$value['id'].'">(UPDATE) </a>
+                    echo '<a class="btnDelete" href="?delete='.$value['id'].'">(DELETAR) </a>
+                          <a class="btnUpdate" href="update.php?id='.$value['id'].'">(ATUALIZAR) </a>
                                 NOME: '.$value['nome'].' | CPF: '.$value['cpf'].' | TELEFONE: '.$value['telefone'].'';
                     echo '<hr>';  
                 }
             }else{
-                echo '<p>Sem alunos matriculados :(</p>';
+                echo '<p class="aviso">Sem alunos matriculados :(</p>';
             }
         ?>
         <?php

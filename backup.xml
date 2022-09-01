@@ -1,21 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <alunos>
 	<aluno>
-		<id>4</id>
-		<nome>test</nome>
-		<cpf>465</cpf>
-		<telefone>851</telefone>
+		<id>7</id>
+		<nome>João Paulo</nome>
+		<cpf>111.111.111-11</cpf>
+		<telefone>11 2222 - 2222</telefone>
 	</aluno>
 	<aluno>
-		<id>5</id>
-		<nome>te</nome>
-		<cpf>9869</cpf>
-		<telefone>999</telefone>
-	</aluno>
-	<aluno>
-		<id>6</id>
-		<nome>Joao</nome>
-		<cpf>85451</cpf>
-		<telefone>544856</telefone>
+		<id>8</id>
+		<nome>VIctoe</nome>
+		<cpf>145</cpf>
+		<telefone>5514456</telefone>
 	</aluno>
 </alunos>

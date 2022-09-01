@@ -1,0 +1,26 @@
+a{
+    text-decoration: none;
+    margin: 2px;
+}
+
+.btnDelete{
+    padding: 8px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.btnUpdate{
+    padding: 8px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+.aviso{
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    width: 20%;
+    color: white;
+}
